@@ -1,0 +1,8 @@
+[Unit]
+Description=xborder service
+[Service]
+Type=simple
+TimeoutStartSec=0
+ExecStart=/home/lachlan/.config/xborder/xborders --config /home/lachlan/.config/xborder/config.json
+[Install]
+WantedBy=xsession.target
