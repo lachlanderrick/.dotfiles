@@ -1,1 +1,4 @@
 lazygit/state.yml
+spotifyd/spotifyd.conf
+spotify-tui/client.yml
+spotify-tui/.spotify_token_cache.json
